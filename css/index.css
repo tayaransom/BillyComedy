@@ -1,0 +1,350 @@
+/*All files*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: Black;
+}
+
+
+/*Home file*/
+
+header#home {
+    background-image: url(../resources/images/billy-2.jpeg);
+    background-repeat: no-repeat;
+    height: 790px;
+    text-align: center;
+    width: 100%;
+    filter: brightness(1);
+    position: fixed;
+    background-color: white;
+}
+
+#home h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    letter-spacing: 7px;
+    font-size: 75px;
+    position: relative;
+    background-color: rgba(128, 128, 128, .2);
+}
+
+#bottom {
+    border-bottom: .5px solid white;
+    font-size: 60px !important;
+}
+
+.nav-bar-left {
+    font-size: xx-large;
+    float: left;
+    line-height: 3;
+    list-style-type: none;
+    margin: 70px;
+    background-color: rgba(128, 128, 128, .2);
+    border: .5px solid white;
+    width: 239px;
+    height: 385px;
+}
+
+.nav-bar-right {
+    font-size: xx-large;
+    float: right;
+    line-height: 3;
+    list-style-type: none;
+    margin: 70px;
+    background-color: rgba(128, 128, 128, .2);
+    border: .5px solid white;
+    width: 239px;
+    height: 385px;
+}
+
+@media(max-width: 700px) {
+    #home h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .nav-bar-left {
+        font-size: medium;
+        width: 175px;
+        height: 200px;
+        float: none;
+        text-align: center;
+    }
+    .nav-bar-right {
+        font-size: medium;
+        width: 175px;
+        height: 200px;
+        float: none;
+    }
+}
+
+
+/*Nav-Bar NOT HOME*/
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    font-size: large;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-section a {
+    display: inline-flex;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+
+.nav-section a:hover {
+    display: inline-flex;
+    color: grey;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: x-large;
+    text-transform: uppercase;
+    transition: .7s;
+}
+
+.current a {
+    display: inline-flex;
+    color: grey;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/*About-Me File*/
+
+#guitar-pic {
+    height: 500px;
+    width: auto;
+    display: flex;
+    float: left;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+#about-div {
+    background-image: url(../resources/images/sand.jpg);
+    display: flex;
+    border: .5px solid white;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.about-me {
+    font-family: 'Roboto Flex', sans-serif;
+    color: whitesmoke;
+    letter-spacing: 1.75px;
+    line-height: 1.75;
+    position: relative;
+    float: right;
+    top: 75px;
+    padding-right: 30px;
+    flex-basis: 600px;
+    background-color: rgba(128, 128, 128, .2);
+    margin-bottom: 70px;
+}
+
+
+/*Podcast File*/
+
+div.podcast {
+    position: relative;
+    text-align: center;
+    background-image: url(../resources/images/sand.jpg);
+    border: .5px solid white;
+}
+
+div.podcast h2 a {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+div.podcast h2 a:hover {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/*Stand-Up Gallary File*/
+
+header.stand-gal {
+    position: relative;
+    text-align: center;
+    border: .5px solid white;
+    padding: 10px;
+    background-image: url(../resources/images/sand.jpg);
+}
+
+
+/*Social Media File*/
+
+div.social {
+    position: relative;
+    font-size: x-large;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+div.social p {
+    display: inline-flex;
+}
+
+div.social p img {
+    width: 50px;
+    height: 50px;
+    transition: 0.7s;
+    border-radius: 50%;
+}
+
+
+
+div.social p img:hover {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    transition: 0.7s;
+}
+
+
+div.social a {
+    position: relative;
+    font-size: x-large;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+}
+
+div.widget {
+    position: relative;
+    top: -25px;
+}
+
+
+
+/*Show File*/
+
+.show-div {
+    align-items: center;
+    justify-content: center;
+    border: .5px solid white;
+    padding: 197px;
+    background-image: url(../resources/images/sand.jpg);
+}
+
+p.show {
+    position: relative;
+    font-size: 75px;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+}
+
+#calander-div {
+    position: relative;
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+}
+
+button {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-family: 'Roboto Flex', sans-serif;
+   }
+   
+button:hover {
+    color: black;
+}
+   
+button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+/*Booking File*/
+
+
+div#booking {
+    position: relative;
+    font-size: 75px;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    border: .5px solid white;
+    padding: 173px;
+    background-image: url(../resources/images/sand.jpg);
+    text-align: center;
+}
+
+#p1 {
+    font-size: 35px;
+}
+
+/*Merch Files*/
+
+div#merch {
+    position: relative;
+    font-size: 75px;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    border: .5px solid white;
+    padding: 173px;
+    background-image: url(../resources/images/sand.jpg);
+    text-align: center;
+}
+
+#p1 {
+    font-size: 35px;
+}
+
+
